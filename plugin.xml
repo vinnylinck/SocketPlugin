@@ -6,7 +6,7 @@
     <name>Socket</name>
     <description>Sample Socket Connection Plugin</description>
     <license>MIT</license>
-    <keywords>phonegap,calendar</keywords>
+    <keywords>phonegap,socket</keywords>
 
 
     <js-module src="www/socket.js" name="Socket">
