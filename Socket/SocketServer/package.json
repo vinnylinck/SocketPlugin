@@ -1,0 +1,9 @@
+{
+    "name" : "socketServer",
+    "version" : "0.0.1",
+    "description" : "Socket Server",
+    "dependencies" : {
+        "net" : "latest"
+    },
+    "author" : "felipekm"
+}

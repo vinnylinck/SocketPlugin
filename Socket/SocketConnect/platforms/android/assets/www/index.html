@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />        
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/boostrap.css" />
+        
+        <title>Socket Plugin</title>
+    </head>
+    <body>
+        <div class="app">
+            <form role="form">                
+                
+                <h1>Node Socket Connect</h1>
+                
+                <div class="form-group">
+                    <label for="txtPort">Server Port</label>
+                    <input type="text" size="110" class="form-control" id="txtPort" placeholder="Server Port">
+                </div>
+                
+                <div class="form-group">
+                    <label for="txtJson">JSON Input</label>
+                    </br>
+                    <textarea name="json" form="txtJson" cols="50" rows="10">{ 
+        "teste" : {
+            "prop" : "mmm",
+            "prop2" : "nnnn"
+        }
+}</textarea>
+                </div>
+                
+                <button id="btnConnect" class="btn btn-primary">Connect</button>
+                
+            </form>
+        </div>
+        
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+        
+    </body>
+</html>
